@@ -1,28 +1,46 @@
-# BPMN2UML
+## BPMN2UML
 
-## Inhalt
-Das UML Diagramm basiert auf dem [BPMN Standard 2.0.2](https://www.omg.org/spec/BPMN/2.0.2/)
+Der BPMN Standard basiert auf den Prinzipien der Meta Object Facility (MOF) und definiert daher die Semantik der Modelliersprache als Metamodell mittels UML Klassen. Das bedeutet, dass jedes Prozessmodell sich auf eine Klassenhierachie zurückführen lassen muss.
 
-## Zielsetzung
-Ziel des Projektes ist es, den BPMN Standard zu analysieren und daraus ein mög-lichst vollständiges UML Diagramm (Klassen Diagramm) zu erstellen.
+### Inhalt und Zielsetzung
 
-## Vorraussetzungen
-Für das Öffenen und Bearbeiten des Diagramm wird [Visual Paradigm](https://www.visual-paradigm.com/download/community.jsp) benötigt.
+Ziel des Projektes ist es, den BPMN Standard zu analysieren und daraus ein möglichst vollständiges UML Diagramm (Klassen Diagramm) zu erstellen. Das UML Diagramm basiert auf dem [BPMN Standard 2.0.2](https://www.omg.org/spec/BPMN/2.0.2/)
 
+### Vorraussetzungen
 
-## BPMN Standard als UML Klassendiagramm
+Benötigtes Softwaretool:
+
+* [Visual Paradigm](https://www.visual-paradigm.com/download/community.jsp)
+
+### BPMN Standard als UML Klassendiagramm
+
 ![BPMN2UML Klassendiagramm](./ClassDiagram/BPMN2UML_2019_11_22.jpg "Klassendiagramm")
 
+#### Conformance Klassen
 
-## Proof of concept - BPMN Diagramm als Objektdiagramm
+Die Conformance Klassen von BPMN sind durch verschiedene Farbhintergründen der Klassen und Attribute markiert.
+
+**Die Conformance Klassen von BPMN:**
+
+* Descriptive Conformance Sub-Class (türkis)
+* Analytic Conformance Sub-Class (grün)
+* Common Executable Conformance Sub-Class (orange)
+* Process Modelling Conformance Class (weiß)
+* Für die Prozessausführung (gelb)
+
+### Proof of concept - BPMN Diagramm als Objektdiagramm
+
 Als "proof of concept" wurde mit dem erstellten Klassendiagramm ein Objektdiagramm erstellt, welches ein beispielhaftes BPMN Modell darstellt.
 
-### Beispielhaftes BPMN Modell
+#### Beispielhaftes BPMN Modell
+
 Follgendes BPMN Modell wurde für das "proof of concept" verwendet.
 ![Test BPMN](./ObjectDiagram/BPMN2UML_Test_BPMN.jpg "Test BPMN")
 
-### BPMN Modell als XML (vereinfacht)
+#### BPMN Modell als XML (vereinfacht)
+
 Das modellierte BPMN Modell sieht als XML in vereinfachter Form so aus:
+
 <details>
 
 ````xml
@@ -75,7 +93,7 @@ Das modellierte BPMN Modell sieht als XML in vereinfachter Form so aus:
 
 </details>
 
-### Objektdiagramm des BPMN Modells
+#### Objektdiagramm des BPMN Modells
 Aus dem oben angeführten XML Code lässt sich folgendes UML Objektdiagramm ableiten:
 
 ![Objektdiagramm](./ObjectDiagram/Obj_BPMN2UML_Test1.jpg "Objektdiagramm")
