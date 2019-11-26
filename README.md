@@ -11,7 +11,7 @@ Für das Öffenen und Bearbeiten des Diagramm wird [Visual Paradigm](https://www
 
 
 ## BPMN Standard als UML Klassendiagramm
-![alt text](./BPMN2UML_2019_11_22.jpg "Klassendiagramm")
+![BPMN2UML Klassendiagramm](./ClassDiagram/BPMN2UML_2019_11_22.jpg "Klassendiagramm")
 
 
 ## Proof of concept - BPMN Diagramm als Objektdiagramm
@@ -19,7 +19,7 @@ Als "proof of concept" wurde mit dem erstellten Klassendiagramm ein Objektdiagra
 
 ### Beispielhaftes BPMN Modell
 Follgendes BPMN Modell wurde für das "proof of concept" verwendet.
-![alt text](./BPMN2UML_Test_BPMN.jpg "Test BPMN")
+![Test BPMN](./BPMN2UML_Test_BPMN.jpg "Test BPMN")
 
 ### BPMN Modell als XML (vereinfacht)
 Das modellierte BPMN Modell sieht als XML in vereinfachter Form so aus:
@@ -78,4 +78,4 @@ Das modellierte BPMN Modell sieht als XML in vereinfachter Form so aus:
 ### Objektdiagramm des BPMN Modells
 Aus dem oben angeführten XML Code lässt sich folgendes UML Objektdiagramm ableiten:
 
-![alt text](./ObjectDiagram/Obj_BPMN2UML_Test1.jpg "Objektdiagramm")
+![Objektdiagramm](./ObjectDiagram/Obj_BPMN2UML_Test1.jpg "Objektdiagramm")
