@@ -19,7 +19,7 @@ Als "proof of concept" wurde mit dem erstellten Klassendiagramm ein Objektdiagra
 
 ### Beispielhaftes BPMN Modell
 Follgendes BPMN Modell wurde für das "proof of concept" verwendet.
-![Test BPMN](./BPMN2UML_Test_BPMN.jpg "Test BPMN")
+![Test BPMN](./ObjectDiagram/BPMN2UML_Test_BPMN.jpg "Test BPMN")
 
 ### BPMN Modell als XML (vereinfacht)
 Das modellierte BPMN Modell sieht als XML in vereinfachter Form so aus:
