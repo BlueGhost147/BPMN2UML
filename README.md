@@ -12,6 +12,12 @@ Benötigtes Softwaretool:
 
 * [Visual Paradigm](https://www.visual-paradigm.com/download/community.jsp)
 
+### Setup
+
+* Download des Repositories
+* Öffnen des .\BPMN2UML\VisualParadigm_Project\BPMN2UML_V2.vpp Files mit Visual Paradigm
+* Im Diagram Navigator -> UML Diagrams > Class Diagram > BPMN2UML auswählen
+
 ### BPMN Standard als UML Klassendiagramm
 
 ![BPMN2UML Klassendiagramm](./ClassDiagram/BPMN2UML_2019_11_22.jpg "Klassendiagramm")
