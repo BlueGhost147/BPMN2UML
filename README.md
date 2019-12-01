@@ -13,7 +13,7 @@ Benötigtes Softwaretool:
 * [Visual Paradigm](https://www.visual-paradigm.com/download/community.jsp)
 
 Kenntnisse:
-* UML Klassen Diagramme
+* [UML Klassen Diagramme](https://developer.ibm.com/articles/an-introduction-to-uml/)
 * BPMN
 
 ### Setup
