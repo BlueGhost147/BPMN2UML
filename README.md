@@ -22,6 +22,12 @@ Kenntnisse:
 * Öffnen des .\BPMN2UML\VisualParadigm_Project\BPMN2UML_V2.vpp Files mit Visual Paradigm
 * Im Diagram Navigator -> UML Diagrams > Class Diagram > BPMN2UML auswählen
 
+#### Override Connector Limit
+
+By default, the Visual Paradigm formatting tool has a connector limit of 300, which means that you cannot automatically format diagrams with more than 300 relationships. To avoid this limit, you can set an environment variable that increases the limit.
+
+[Guide - Connector Limit](https://knowhow.visual-paradigm.com/diagramming/max-number-connector-layout/)
+
 ### BPMN Standard als UML Klassendiagramm
 
 ![BPMN2UML Klassendiagramm](./ClassDiagram/BPMN2UML_2019_11_22.jpg "Klassendiagramm")
