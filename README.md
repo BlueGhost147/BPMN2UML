@@ -106,7 +106,6 @@ Das modellierte BPMN Modell sieht als XML in vereinfachter Form so aus:
 
 ````
 
-
 </details>
 
 #### Objektdiagramm des BPMN Modells
