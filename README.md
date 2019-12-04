@@ -30,7 +30,7 @@ By default, the Visual Paradigm formatting tool has a connector limit of 300, wh
 
 ### BPMN Standard als UML Klassendiagramm
 
-![BPMN2UML Klassendiagramm](./ClassDiagram/BPMN2UML_2019_11_22.jpg "Klassendiagramm")
+![BPMN2UML Klassendiagramm](./ClassDiagram/BPMN2UML_classDiagram.jpg "Klassendiagramm")
 
 #### Conformance Klassen
 
