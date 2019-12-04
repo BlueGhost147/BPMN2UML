@@ -20,7 +20,7 @@ Required Software:
 
 ### BPMN standard as a UML class diagram
 
-![BPMN2UML class diagram](./ClassDiagram/BPMN2UML_2019_11_22.jpg "class diagram")
+![BPMN2UML class diagram](./ClassDiagram/BPMN2UML_classDiagram.jpg "class diagram")
 
 #### Conformance classes
 
