@@ -1,51 +1,61 @@
 ## BPMN2UML
 
-The BPMN standard is based on the principles of the Meta Object Facility (MOF) and therefore defines the semantics of the modeling language as a metamodel using UML classes. This means that each process model must be traceable to a class hierarchy.
+Der BPMN Standard basiert auf den Prinzipien der Meta Object Facility (MOF) und definiert daher die Semantik der Modelliersprache als Metamodell mittels UML Klassen. Das bedeutet, dass jedes Prozessmodell sich auf eine Klassenhierachie zurückführen lassen muss.
 
-### Content and goals
+### Inhalt und Zielsetzung
 
-The goal of the project is to analyze the BPMN standard and to create a preferably complete UML diagram (class diagram). The UML diagram is based on the [BPMN standard 2.0.2](https://www.omg.org/spec/BPMN/2.0.2/)
+Ziel des Projektes ist es, den BPMN Standard zu analysieren und daraus ein möglichst vollständiges UML Diagramm (Klassen Diagramm) zu erstellen. Das UML Diagramm basiert auf dem [BPMN Standard 2.0.2](https://www.omg.org/spec/BPMN/2.0.2/)
 
-### Requirements
+### Vorraussetzungen
 
-Required Software:
+Benötigtes Softwaretool:
 
 * [Visual Paradigm](https://www.visual-paradigm.com/download/community.jsp)
 
+Kenntnisse:
+* [UML Klassen Diagramme](https://developer.ibm.com/articles/an-introduction-to-uml/)
+* BPMN
+
 ### Setup
-* Download or clone the repository
-* Open ./VisualParadigm_Project/BPMN2UML_V2.vpp with Visual Paradigm
-* In the Diagram Navigator > BPMN2UML > Class Diagram > Open BPMN2UML
 
+* Download des Repositories
+* Öffnen des .\BPMN2UML\VisualParadigm_Project\BPMN2UML_V2.vpp Files mit Visual Paradigm
+* Im Diagram Navigator -> UML Diagrams > Class Diagram > BPMN2UML auswählen
 
-### BPMN standard as a UML class diagram
+#### Override Connector Limit
 
-![BPMN2UML class diagram](./ClassDiagram/BPMN2UML_2019_11_22.jpg "class diagram")
+By default, the Visual Paradigm formatting tool has a connector limit of 300, which means that you cannot automatically format diagrams with more than 300 relationships. To avoid this limit, you can set an environment variable that increases the limit.
 
-#### Conformance classes
+[Guide - Connector Limit](https://knowhow.visual-paradigm.com/diagramming/max-number-connector-layout/)
 
-The conformance classes of BPMN are marked by different background colors (classes and attributes).
+### BPMN Standard als UML Klassendiagramm
 
-**The conformance classes of BPMN:**
+![BPMN2UML Klassendiagramm](./ClassDiagram/BPMN2UML_classDiagram.jpg "Klassendiagramm")
 
-* Descriptive conformance sub-class (cyan)
-* Analytic conformance sub-class (green)
-* Common executable conformance sub-class (orange)
-* Process modelling conformance class (white)
-* For process execution (yellow)
+#### Conformance Klassen
 
-### Proof of concept - A BPMN model as a object diagram
+Die Conformance Klassen von BPMN sind durch verschiedene Farbhintergründen der Klassen und Attribute markiert.
 
-As proof of concept, an object diagram was created with the created class diagram, which represents an exemplary BPMN model.
+**Die Conformance Klassen von BPMN:**
 
-#### Exemplary BPMN model
+* Descriptive Conformance Sub-Class (türkis)
+* Analytic Conformance Sub-Class (grün)
+* Common Executable Conformance Sub-Class (orange)
+* Process Modelling Conformance Class (weiß)
+* Für die Prozessausführung (gelb)
 
-The following BPMN model was used for the proof of concept.
+### Proof of concept - BPMN Diagramm als Objektdiagramm
+
+Als "proof of concept" wurde mit dem erstellten Klassendiagramm ein Objektdiagramm erstellt, welches ein beispielhaftes BPMN Modell darstellt.
+
+#### Beispielhaftes BPMN Modell
+
+Follgendes BPMN Modell wurde für das "proof of concept" verwendet.
 ![Test BPMN](./ObjectDiagram/BPMN2UML_Test_BPMN.jpg "Test BPMN")
 
-#### BPMN model as XML (simplified)
+#### BPMN Modell als XML (vereinfacht)
 
-Simplified XML structure of the BPMN model:
+Das modellierte BPMN Modell sieht als XML in vereinfachter Form so aus:
 
 <details>
 
@@ -96,11 +106,9 @@ Simplified XML structure of the BPMN model:
 
 ````
 
-
 </details>
 
-#### Object diagram of the BPMN model
+#### Objektdiagramm des BPMN Modells
+Aus dem oben angeführten XML Code lässt sich folgendes UML Objektdiagramm ableiten:
 
-The following UML object diagram can be derived from the XML code:
-
-![Object diagram](./ObjectDiagram/Obj_BPMN2UML_Test1.jpg "Object diagram")
+![Objektdiagramm](./ObjectDiagram/Obj_BPMN2UML_Test1.jpg "Objektdiagramm")
